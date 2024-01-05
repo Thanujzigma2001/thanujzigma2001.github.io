@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Voice</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4ed2c4d558.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           
+            <nav>
+                <img class ="logo"src="images/LOGO NEW.jpg">
+                <ul id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()" style="color: #fafcff;"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" style="color: #fcfcfd;"></i>
+            </nav>
+
+            <div class="header-text">
+                <h1><span>Thanuj</span> <br> Abeyrathne</h1>
+                <p class="desc-small">Professional Voice Artist and Presenter</p>
+            </div>
+        </div>
+    </div>
+<!*-----------about----------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Future-new.jpg">
+
+                </div>
+                <div div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a voice over artist and a presenter with the experience in Industry.I am ready to unleash my talent for all your assesments</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><i class="fa-solid fa-microphone"></i><br><span>Compereing and Public Speaking</span><br>Fluent in both sinhala and english language compereing and public speaking</li>
+                            <li><i class="fa-solid fa-microphone"></i><br><span>Voice-Over</span><br>Commercial and Video voice overing in both Sinhala and English</li>
+                            <li><i class="fa-solid fa-code"></i><br><span>Programming</span><br>Fluent in front-end and O.O.P.A full stack develop enthusiast continuing in the process of learning new ideas and knowledge with the daily assignmnets.
+                            <div class="languages">
+                                <img class="language" href="images/slbc.jpg">
+                                <img class="language" href="images/bandara.jpg">
+                                <img class="language" href="images/bandara.jpg">
+
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><img class="content-logo" src="images/slbc.jpg"><br><span>2021-2023</span><br>Radio Presenter at SLBC Swadeshiya Sewaya</li>
+                            <li><img class="content-logo" src="images/slbc.jpg"><br><span>2016-2020</span><br>Child Radio presenter at SLBC Kandurata Sewaya</li>
+                            <li><img class="content-logo" src="images/about-small.jpg"><br><span>2020 to present</span><br>Professional Announcer and Dubbing Artist at T Voice</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><img class="content-logo" src="images/bandara.jpg"><br><span>2007-2011</span><br>S.W.R.D Bnadaranayake National School</li>
+                            <li><img class="content-logo" src="images/ssck-logo.jpg"><br><span>2012-2021</span><br>St/Sylvester's College</li>
+                            <li><img class="kelaniya"src="images/K-new.png"><br><span> 2023-present</span><br>University of Kleaniya Sri Lanka</li>
+                        </ul>
+                    </div>
+                    
+                 </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!*-----------services------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-microphone"></i>
+                    <h2>Voice-Overing</h2>
+                    <p>Voice Overing for commercials and other videos.Available in both Sinhala and English </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-microphone"></i>
+                    <h2>Professional Compereing</h2>
+                    <p>For all formal and non-formal occassions of yours;I am ready to offer my experience</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-microphone"></i>
+                    <h2>Outdoor Sports Commentary</h2>
+                    <p>For all the sports activities(Sports Meets,Cricket Tournamnets)I am ready to offer you my professional skills </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------My- Work-->
+    <div id="my-work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Swara-Ranjana.jpg">
+                    <div class="layer">
+                        <h3 class="work-title">Swara Ranjana 2019-The Rhythm of Vester's</h3>
+                        <p class="description">Official Host of the Annual Concert of St Sylvester's Collge</p>
+                        <a href="#"><i class="fa-solid fa-play" style="color: #c40320;"></i></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/ICATC.jpg">
+                    <div class="layer">
+                        <h3 class="work-title">International Conference on the Advances of Computing and Technology</h3>
+                        <p class="description">Official Co-Host for the event</p>
+                        <a href="ICATC.html"><i class="fa-solid fa-play" style="color: #c40320;"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/cf-24.jpg">
+
+                   <div class="layer">
+                    <h3 class="work-title">Carrier Fair 24</h3>
+                        <p class="description">The awareness video for the Carrier fair of University of Kelaniya</p>
+                        <a href="carrier-fair.html"><i class="fa-solid fa-play" style="color: #c40320;"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/RJadd.jpg">
+
+                   <div class="layer">
+                    <h3 class="work-title">O/L Advertisment</h3>
+                        <p class="description">O/L Advertisment done for a client</p>
+                        <a href="add.html"><i class="fa-solid fa-play" style="color: #c40320;"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Future-Minds.jpg">
+
+                   <div class="layer">
+                    <h3 class="work-title">Future Minds 2023</h3>
+                        <p class="description">The Official Host for the Future Minds 2023 Galle and Kandy Exhibitions</p>
+                        <a href="#"><i class="fa-solid fa-play" style="color: #c40320;"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/new-fm.jpg">
+
+                   <div class="layer">
+                    <h3 class="work-title">SLBC </h3>
+                        <p class="description">Radio Presenter at youth Hour Kandurata FM </p>
+                        <a href="#"><i class="fa-solid fa-play" style="color: #c40320;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Contact Thanuj.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0713073108</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/thanuj.abeyrathna"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/r.t.b_official/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/thanuj-abeyrathne-096614242/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="docs/resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Thanuj Abeyrathne<br>Made by Thanuj Abeyrathne </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
